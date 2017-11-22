@@ -1,8 +1,9 @@
 "use strict";
 
-app.config(function($routeProvider){
+app.config(function( $locationProvider, $routeProvider ){
+
   $routeProvider
-    .when("/home", {
+    .when("/", {
       templateUrl: 'partials/home.html',
       controller: 'HomeCtrl'
     } )
