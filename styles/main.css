@@ -1,2 +1,29 @@
 body {
-  background-color: red; }
+  background-color: lightgrey; }
+
+#home img {
+  opacity: .5;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+#home #projects {
+  position: absolute;
+  bottom: 0px;
+  right: 30px; }
+
+.navbar-brand img {
+  width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222); }
+
+.navbar-inverse {
+  height: 65px;
+  background-color: #323944; }
+
+.navigation {
+  position: relative;
+  bottom: -15px;
+  background-color: #323944; }
