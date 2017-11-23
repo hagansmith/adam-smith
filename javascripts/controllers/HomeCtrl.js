@@ -1,6 +1,16 @@
 "use strict";
 
-app.controller("HomeCtrl", function($scope){
-  $scope.controller = "Home";
-  console.log("Home");
+app.controller("HomeCtrl", function($scope, DataService){
+  $scope.projects = [];
+
+  const getProjects = () => {
+    DataService.getProjects().then((results)=>{
+      $scope.projects = results;
+    }).catch((error)=>{
+      console.log("error in getProjects", error);
+    });
+  };
+
+getProjects();
+
 });

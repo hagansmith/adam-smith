@@ -1,10 +1,14 @@
 body {
   background-color: lightgrey; }
 
+#home #headerContent {
+  position: relative;
+  height: 350px;
+  overflow: hidden; }
+
 #home img {
   opacity: .5;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: -1; }

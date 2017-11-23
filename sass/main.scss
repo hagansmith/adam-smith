@@ -5,14 +5,18 @@ body {
 }
 
 #home {
+  #headerContent {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+  }
+
   img {
       opacity: .5;
       width: 100%;
-      position: fixed;
       top: 0;
       left: 0;
       z-index: -1;
-
   }
 
   #projects {
