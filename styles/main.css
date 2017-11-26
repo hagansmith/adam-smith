@@ -1,22 +1,17 @@
 body {
   background-color: lightgrey; }
 
-#home #headerContent {
+#header #headerImage {
   position: relative;
   height: 350px;
   overflow: hidden; }
 
-#home img {
+#header #hero {
   opacity: .5;
   width: 100%;
   top: 0;
   left: 0;
   z-index: -1; }
-
-#home #projects {
-  position: absolute;
-  bottom: 0px;
-  right: 30px; }
 
 .navbar-brand img {
   width: 100%;
@@ -29,5 +24,14 @@ body {
 
 .navigation {
   position: relative;
+  right: 35px;
   bottom: -15px;
-  background-color: #323944; }
+  font-size: 1.25em;
+  color: #323944; }
+
+#ppt {
+  position: relative;
+  bottom: 20px; }
+  #ppt .btn {
+    background-color: #323944;
+    color: white; }

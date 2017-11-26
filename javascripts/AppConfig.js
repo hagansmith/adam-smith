@@ -22,5 +22,10 @@ app.config(function( $locationProvider, $routeProvider ){
       controller: 'BlogCtrl',
 
     } )
-    .otherwise('/home');
+    .when("/projects", {
+      templateUrl: 'partials/project.html',
+      controller: 'ProjectCtrl',
+
+    } )
+    .otherwise('/');
 });
