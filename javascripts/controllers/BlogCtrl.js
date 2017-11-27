@@ -1,6 +1,24 @@
 "use strict";
 
-app.controller("BlogCtrl", function($scope){
-  $scope.controller = "Blog";
-  console.log("Blog");
+app.controller("BlogCtrl", function($scope, DataService){
+  $scope.blogs = [];
+  $scope.oneBlog = [];
+
+  const getBlogs = () => {
+    DataService.getBlogs().then((results)=>{
+      $scope.blogs = results;
+    }).catch((error)=>{
+      console.log("error in getProjects", error);
+    });
+  };
+
+  getBlogs();
+
+  $scope.mainBlog = (id) => {
+    DataService.getSingleBlog(id).then((results)=>{
+      $scope.oneBlog = results.data;
+    }).catch((error)=> {
+      console.log("error in get single blog", error);
+    });
+  };
 });

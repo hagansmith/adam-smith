@@ -22,5 +22,26 @@ app.service("DataService", function ($http, $rootScope, $q, FIREBASE_CONFIG){
     });
   };
 
-  return {getProjects};
+  const getBlogs = () => {
+    let blogs = [];
+    return $q((resolve, reject) => {
+      $http.get(`${FIREBASE_CONFIG.databaseURL}/blogs.json`).then((results) => {
+        let fbBlogs = results.data;
+          Object.keys(fbBlogs).forEach((key) => {
+            fbBlogs[key].id = key;
+            blogs.push(fbBlogs[key]);
+            resolve(blogs);
+          });
+      }).catch((error) => {
+        reject(error);
+      });
+    });
+  };
+
+  const getSingleBlog = (blogId) => {
+  return $http.get(`${FIREBASE_CONFIG.databaseURL}/blogs/${blogId}.json`);
+};
+
+
+  return {getProjects, getBlogs, getSingleBlog};
 });
