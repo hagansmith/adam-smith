@@ -1,5 +1,62 @@
 @import "variables";
+@import "projects";
+@import "blog";
 
 body {
-  background-color: $background-color; 
+  background-color: $background-color;
+}
+
+#header {
+  #headerImage {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+  }
+  #hero {
+      opacity: .5;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+  }
+}
+
+.navbar-brand {
+  img {
+    width: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+  }
+}
+
+.navbar-inverse {
+  height: 65px;
+  background-color: #323944;
+}
+
+.navigation {
+  position: relative;
+  right: 35px;
+  bottom: -15px;
+  font-size: 1.25em;
+  color: #323944;
+  //background-color: #323944;
+}
+
+#ppt {
+  position: relative;
+  bottom: 20px;
+
+  .btn {
+  background-color: #323944;
+  color: white;
+  //padding: 1em;
+  //margin: .25em;
+  }
+}
+
+.pageName {
+  position: absolute;
+  top: 25%;
+
 }

@@ -1,0 +1,108 @@
+{
+	"blogs": [{
+			"title": "Week 1 | The Gauntlet",
+			"content": "Afer a little under a month of prework, online and in books, I was itiching to get going. Things started a little slower than expected but I figure I will be appreciating that later on. We jumpped into GIT and HTML this week with some CSS.",
+			"date": "July 15, 2017"
+		},
+
+		{
+			"title": "Week 2 | Terminal for Days",
+			"content": "A certain comfort begins to arise afer initializing and pushing a bunch of repositories over and over again. The monotony of setting up even 5 repositories is mind numbing at this point. I am not a terminal pro, per-se, but my comfort level is higher than ever.",
+			"date": "July 22, 2017"
+		},
+
+		{
+			"title": "Week 3 | Java Script",
+			"content": "I would also tile this loops and what-how!? I can not say I fully understand the loops yet but I am getting there. I understand how they are constructed and what they do but I do not know that I could construct it all from scratch. More on this later...",
+			"date": "July 29, 2017"
+		},
+
+		{
+			"title": "Week 4 | Java Script week 2",
+			"content": "Or functions in functions in functions for days. School kicked my butt this week, and it is largely because I let up a bit and did not study as much as I should have. The hardest thing for me to comprehend right now is how functions work exactly. What is passing to what and how to pass the correct information from one funtion to another. I expect in a month or two I will be looking back and laughing that I struggled so much with this.",
+			"date": "August 5, 2017"
+		},
+
+		{
+			"title": "Week 5 | Git Hub Groups",
+			"content": "Just dive in. That is the best way to get some things done. This week we worked in groups trying to break our group git repo. Not really but breaking it and fixing it early on is the goal. We intentionally caused some conflicts as a result of the way we worked on some projects. Having a good plan going in and being prepared helped us to avoid generating too many conflicts.",
+			"date": "August 12, 2017"
+		},
+
+		{
+			"title": "Week 6 | Markdown and Event Listeners",
+			"content": "Week 6 introduced markdown for updaing our git readme files. Lesson here, make and update your readme files as you go they are no fin to go back and update/add to after the fact. We continue to hack away at functions how they work and adding functionality via event listeners to our work. Functions are still not fully clear, specifically with respect to the arguments and what and when to pass information. I have moments of clarity followed by complete confusion follwed by frustration. One day I will laugh that I didn't get it.",
+			"date": "August 19, 2017"
+		},
+
+		{
+			"title": "Week 7 | XHR",
+			"content": "Just when you feel like you are starting to get it... nope! We added json files and XML requests to our knowledge. What was once stored in an array in our js files is now in a new file kind of looking like js but not, what an imposter. To add to our complexity we worked on requests for information from 2 files that then had to be 'linked' via vanilla js. Done and done, and on the plus side I feel pretty comfortable with functions now.",
+			"date": "August 26, 2017"
+		},
+
+		{
+			"title": "Week 8 | Bootstrap",
+			"content": "Ahhh, a small breath of fresh air. Bootstrap was our topic for this week and it is nice to have a new tool to help with formatting a page. We also worked through a small portion of es6, some of which we were already using in previous exercies. It's becoming more important to plan the code and the layout before beginning to write as content needs to load before it can be used by other pieces of code.",
+			"date": "September 2, 2017"
+		},
+
+		{
+			"title": "Week 9 | Task Runners and Browserify",
+			"content": "Task runners, initially an annoyance eventually really helpful. I found when getting a project up and running that the task runners we were using felt bulky and in the way. As I progressed using them and especially as projects became more complex I found myself relying on the task runner to help me double check my work. It was all a matter of getting past the initial setup and getting the runner to pass and being working.",
+			"date": "September 9, 2017"
+		},
+
+		{
+			"title": "Week 10 | jQuery",
+			"content": "I found jQuery to be a simplification of some of the more tedious javascript activies, namely traversing the DOM, modifying CSS attributes, and making ajax calls. I find it difficult at this time, and with the limited experince writing vanilla javascript, to even remember the tediom of some of the javascript. The simplification is a welcomed change.",
+			"date": "September 23, 2017"
+		},
+		{
+			"title": "Week 11 | Promises",
+			"content": "I was out of town for the promises lesson and so I have bee self teaching a bit to myself. The promises are nice because they allow the code to process the asynchronous request while still moving forward and then calling the data from the request when needed. This has allowed for more modular code but has also been a bit confusing. Week 11 update.. I like this snippet about promises found --A promise is an object that may produce a single value some time in the future: either a resolved value, or a reason that it’ s not resolved(e.g., a network error occurred).A promise may be in one of 3 possible states: fulfilled, rejected, or pending.Promise users can attach callbacks to handle the fulfilled value or the reason for rejection. Promises are eager, meaning that a promise will start doing whatever task you give it as soon as the promise constructor is invoked.If you need lazy, check out observables or tasks.--",
+			"date": "October 14, 2017"
+		},
+		{
+			"title": "Week 12 | API's",
+			"content": "API's are great! Actually, web API's are as good as the provider who made them but still what an amazing resource to be able to use an API to extend the functionality of a web app I am developing. I am excited to have the knowledge to be able to access and use API's in my future projects.",
+			"date": "October 21, 2017"
+		},
+		{
+			"title": "Week 13 | Firebase",
+			"content": "Finally we are able to store information and provide some form of persitence to our work! Firebase allows us to build on last week's work with APIs and promises to actually get stored data update it and save it again. It makes me excited for the backend of this program and more data capabilities!",
+			"date": "October 28, 2017"
+		},
+		{
+			"title": "Week 14 | ThemePark",
+			"content": "2 weeks of theme park! Individually The hardest part of this project was using time and manipulating provided time formats to match formats provided by moment.js. Working in a group also added another level of complexity but I think we have all learned how to plan projects better in the future and communicate with each other in person and remotely.",
+			"date": "November 11, 2017"
+		}
+	],
+	"projects": [{
+			"name": "Browserify Sandwich",
+			"description": "The browserify sandwich project is an individual project working with Browserify, Grunt, JSON, and XHR",
+			"screen_shot": "https://github.com/hagansmith/browserfy_sandwich/blob/master/browserSandwich.gif",
+			"gitub_link": "https://github.com/hagansmith/browserfy_sandwich"
+		},
+		{
+			"name": "Temperature Converter",
+			"description": "User selects a scale to convert to and the temperature and the converted temperature is displayed. Temperature converter is a introductory javascript, HTML, and CSS exercise. JS is used to write information to the DOM.",
+			"screen_shot": "https://github.com/hagansmith/temperatureConverter/blob/master/TempConverter.gif",
+			"gitub_link": "https://github.com/hagansmith/temperatureConverter"
+		},
+		{
+			"name": "Acme Exlosives",
+			"description": "Upon page load the user is presented with a selector to display products by category. When a category is selected only the items in that category are displayed. Acme explosives is an exercise in using javascript promises to asynchronously load data from json files.",
+			"screen_shot": "https://github.com/hagansmith/Acme-Explosives/blob/master/Demo.gif",
+			"gitub_link": "https://github.com/hagansmith/Acme-Explosives"
+		},
+		{
+			"name": "Advocate Theme Park",
+			"description": "For this project groups were assigned by Myers Briggs personality types. As a team, create a interactive map of a theme park to include different areas with attractions and events. Leaning objectives include: becoming more proficient in working with Firebase, promises, remote deployment, github, and working on a development team",
+			"screen_shot": "https://github.com/hagansmith/browserfy_sandwich/blob/master/browserSandwich.gif",
+			"gitub_link": "https://github.com/nss-evening-cohort-06/theme-park-advocates",
+			"site_link": "https://theme-park-advocates.firebaseapp.com/"
+		}
+	]
+}

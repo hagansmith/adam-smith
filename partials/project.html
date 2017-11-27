@@ -1,0 +1,11 @@
+<container id="projects">
+   <h1 class="col-sm-4 col-sm-offset-4 text-center pageName">Projects</h1>
+   <div id="projectInfo" class="col-sm-11 col-sm-offset-1">
+     <div ng-repeat="project in projects">
+      <div class="collapse col-sm-12" id="{{project.id}}">
+        <h2>{{project.name}}</h2>
+        <div class="col-sm-4"> <img src="{{project.img}}"></div>
+        <h2> {{project.description}}</h2>
+      </div>
+    </div>
+</div>

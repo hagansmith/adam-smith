@@ -1,4 +1,35 @@
-<div class="text-center" id="blog">
-   <h1>Blog</h1>
-     {{controller}}
-</div>
+<h1 class="col-sm-4 col-sm-offset-4 text-center pageName">Blog</h1>
+
+
+<container id="blog">
+
+  <!-- Blog History -->
+  <div id="blogRoll" class="col-md-3 col-md-offset-1 jumbotron">
+    <h2>Blog History</h2>
+    <h4 ng-repeat="blog in blogs | orderBy: 'name' : true" ng-click="mainBlog(blog.id)">{{blog.date}}<br>{{blog.title}}</h4>
+  </div>
+
+  <!-- Clicked blog content -->
+  <div id="focusBlog" class="col-md-7">
+    <h4>{{oneBlog.title}}</h4>
+    <h6>{{oneBlog.date}}</h6>
+    <p>{{oneBlog.content}}</p>
+    <p> In July 2017 I embarked on a journey to develop the coding skills to help provide solutions to some of the challenges I have seen around me in my work experience. I chose Nashville Software Shcool (NSS) as the place to help develop the skills I need. The blog entries that follow are a collection retrospective thoughts on each week of my time. <strong>Click any of the blogs below or the weeks to the left to see the full content.</strong>
+    </p>
+  </div>
+
+  <!-- Listing of blogs in cards  -->
+  <div id="blogHolder" class="col-md-7">
+    <section class="blog col-md-4 thumbnail" ng-repeat="blog in blogs" id="{{blog.id}}" ng-click="mainBlog(blog.id)">
+      <div class="title child">
+        <h4>{{blog.title}}</h4>
+      </div>
+      <div class="date child ">
+        <h6> {{blog.date}} </h6>
+      </div>
+      <div class="text child">
+        <p> {{blog.content}} </p>
+      </div>
+    </section>
+  </div>
+</container>
