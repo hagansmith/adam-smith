@@ -1,6 +1,39 @@
 <div class="text-center" id="contact">
-   <h1>Contact</h1>
-     {{controller}}
+<!-- Contact Form -->
+  <form class="col-md-4 col-md-offset-1 jumbotron">
+  <div class="form-group">
+    <label for="nameInput">Name</label>
+    <input type="text" class="form-control" id="nameInput" placeholder="John Doe">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="textArea">More Info</label>
+    <input type="text" class="form-control" rows="3" id="textArea" placeholder="Reason for connecting...">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 
-     <!-- contact form and info -->
+<!-- Contact Information -->
+  <contact class="inline">
+    <h3> Connect with me on:</h3>
+  		<div>
+        <h4>E-Mail</h4>
+        <a href="mailto:hagansmith@gmail.com"><img src="images/letter.png" class="social"> hagansmith@gmail.com</a>
+      </div>
+  		<div>
+        <h4>GitHub</h4>
+        <a href="https://github.com/hagansmith"><img src="images/github.png" class="social"> github.com/hagansmith</a>
+      </div>
+  		<div>
+        <h4>Facebook</h4>
+        <a href="https://www.facebook.com/SmithAH"><img src="images/facebook.png" class="social"> facebook.com/SmithAH</a>
+      </div>
+  		<div>
+        <h4>LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/adamhsmith/"><img src="images/linkedin.png" class="social"> linkedin.com/in/adamsmith</a>
+      </div>
+  	</contact>
 </div>

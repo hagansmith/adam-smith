@@ -1,33 +1,15 @@
-<!-- Hero Image  -->
-<div class=" row text-center" id="header">
-  <div id="headerImage">
-    <div class="video-container" id="hero">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth">
-            <source src="images/Aloha-Mundo/MP4/Aloha-Mundo.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="images/Aloha-Mundo/WEBM/Aloha-Mundo.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-        <div class="poster hidden">
-            <img src="images/Aloha-Mundo/Snapshots/Aloha-Mundo.jpg" alt="">
-        </div>
-    </div>
-    <!-- <img src="/images/coding-on-laptop_4460x4460.jpg" id="hero"> -->
-  </div>
-</div>
-<nav class="nav navbar-fixed-top" ng-controller="NavCtrl">
-  <div class="col-md-12">
-  <!-- <nav class="navbar"> -->
-    <div class="col-md-4 col-md-offset-1">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">
-          <img alt="Brand" src="/images/ahs-rng.png">
-        </a>
+<container id="header" ng-controller="NavCtrl">
+
+<!-- Logo -->
+  <div class="container-fluid text-center jumbo">
+    <div class="">
+        <img src="/images/ahs.png">
       </div>
     </div>
-  <!-- </nav> -->
-<!-- Right Nav -->
-  <div class="navigation">
-    <ul class="nav navbar-nav navbar-right">
+
+<!-- Nav -->
+  <div class="navigation container-fluid">
+    <ul class="nav navbar-nav">
       <li><a ng-href="#!/home">Home</a></li>
       <li><a ng-href="#!/about">About</a></li>
       <li><a ng-href="#!/contact">Contact</a></li>
@@ -41,5 +23,17 @@
       </li>
     </ul>
   </div>
-</div>
-</nav>
+
+<!-- Hero Image  -->
+  <div class="row text-center" id="headerImage">
+    <div class="video-container col-md-12">
+      <div class="filter"></div>
+      <video autoplay loop class="fillWidth" id="hero">
+        <source src="images/Aloha-Mundo/MP4/Aloha-Mundo.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="images/Aloha-Mundo/WEBM/Aloha-Mundo.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+      </video>
+      <div class="poster hidden">
+        <img src="images/Aloha-Mundo/Snapshots/Aloha-Mundo.jpg" alt="">
+      </div>
+    </div>
+</container>
