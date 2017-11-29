@@ -13,43 +13,44 @@
 body {
   background-color: #e2e2e2; }
 
+.jumbo {
+  background-color: black;
+  border-bottom: 1px solid #fffff4; }
+  .jumbo img {
+    width: 25%; }
+
 #header #headerImage {
-  position: relative;
+  position: static;
   height: 350px;
   overflow: hidden; }
 
 #header #hero {
+  position: absolute;
   opacity: .5;
-  width: 100%;
-  top: -250px;
+  width: 33%;
+  top: 0px;
   left: 0;
   z-index: -1; }
 
-.navbar-brand img {
-  width: 100%;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222); }
-
-.navbar-inverse {
-  height: 65px;
-  background-color: #323944; }
-
 .navigation {
-  position: relative;
-  right: 35px;
-  bottom: -15px;
   font-size: 1.25em;
-  color: #323944; }
+  color: #fffff4;
+  background-color: black; }
+  .navigation a {
+    color: #fffff4; }
 
 #ppt {
   position: relative;
   bottom: 20px; }
   #ppt .btn {
     background-color: #323944;
-    color: white; }
+    color: #fffff4; }
 
 .pageName {
   position: absolute;
   top: 25%;
   font-family: "Yeseva One", cursive;
   font-size: 60px; }
+
+.social {
+  height: 25px; }
