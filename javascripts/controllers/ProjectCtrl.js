@@ -6,6 +6,7 @@ app.controller("ProjectCtrl", function($scope, DataService){
   const getProjects = () => {
     DataService.getProjects().then((results)=>{
       $scope.projects = results;
+      console.log(results)
     }).catch((error)=>{
       console.log("error in getProjects", error);
     });

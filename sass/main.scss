@@ -3,12 +3,12 @@
 @import "blog";
 
 body {
-  background-color: $background-color;
+  background-color: $light-color;
 }
 
 .jumbo {
   background-color: black;
-  border-bottom: 1px solid #fffff4;
+  border-bottom: 1px solid $light-color;
   img {
     width: 25%;
   }
@@ -16,38 +16,25 @@ body {
 
 #header {
   #headerImage {
-    position: static;
+    position: relative;
     height: 350px;
     overflow: hidden;
   }
   #hero {
       position: absolute;
+      width: 100%;
       opacity: .5;
-      width: 33%;
-      top: 0px;
+      top: -200px;
       left: 0;
       z-index: -1;
-
   }
 }
 .navigation {
   font-size: 1.25em;
-  color: #fffff4;
+  color: $light-color;
   background-color: black;
   a {
-    color: #fffff4;
-  }
-}
-
-#ppt {
-  position: relative;
-  bottom: 20px;
-
-  .btn {
-  background-color: #323944;
-  color: #fffff4;
-  //padding: 1em;
-  //margin: .25em;
+    color: $light-color;
   }
 }
 

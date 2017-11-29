@@ -11,7 +11,7 @@
   padding-top: 10px; }
 
 body {
-  background-color: #e2e2e2; }
+  background-color: #fffff4; }
 
 .jumbo {
   background-color: black;
@@ -20,15 +20,15 @@ body {
     width: 25%; }
 
 #header #headerImage {
-  position: static;
+  position: relative;
   height: 350px;
   overflow: hidden; }
 
 #header #hero {
   position: absolute;
+  width: 100%;
   opacity: .5;
-  width: 33%;
-  top: 0px;
+  top: -200px;
   left: 0;
   z-index: -1; }
 
@@ -37,13 +37,6 @@ body {
   color: #fffff4;
   background-color: black; }
   .navigation a {
-    color: #fffff4; }
-
-#ppt {
-  position: relative;
-  bottom: 20px; }
-  #ppt .btn {
-    background-color: #323944;
     color: #fffff4; }
 
 .pageName {
