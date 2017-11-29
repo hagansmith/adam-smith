@@ -1,7 +1,7 @@
 .blog {
   height: 110px;
-  border: 2px solid lightgrey;
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: "Yeseva One", cursive; }
 
 #focusBlog {
   min-height: 110px;
@@ -11,7 +11,7 @@
   padding-top: 10px; }
 
 body {
-  background-color: lightgrey; }
+  background-color: #e2e2e2; }
 
 #header #headerImage {
   position: relative;
@@ -21,7 +21,7 @@ body {
 #header #hero {
   opacity: .5;
   width: 100%;
-  top: 0;
+  top: -250px;
   left: 0;
   z-index: -1; }
 
@@ -50,4 +50,6 @@ body {
 
 .pageName {
   position: absolute;
-  top: 25%; }
+  top: 25%;
+  font-family: "Yeseva One", cursive;
+  font-size: 60px; }

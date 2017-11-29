@@ -15,9 +15,10 @@ body {
   #hero {
       opacity: .5;
       width: 100%;
-      top: 0;
+      top: -250px;
       left: 0;
       z-index: -1;
+
   }
 }
 
@@ -58,5 +59,6 @@ body {
 .pageName {
   position: absolute;
   top: 25%;
-
+  font-family: $font;
+  font-size: 60px;
 }

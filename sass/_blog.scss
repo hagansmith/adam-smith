@@ -1,7 +1,10 @@
+@import "variables";
+
 .blog {
   height: 110px;
-  border: 2px solid lightgrey;
+  // border: 2px solid lightgrey;
   overflow: hidden;
+  font-family: $font;
 }
 
 #focusBlog {
