@@ -17,6 +17,7 @@ app.controller("BlogCtrl", function($scope, DataService){
   $scope.mainBlog = (id) => {
     DataService.getSingleBlog(id).then((results)=>{
       $scope.oneBlog = results.data;
+      angular.element('#blogWelcome').addClass('hidden');
     }).catch((error)=> {
       console.log("error in get single blog", error);
     });

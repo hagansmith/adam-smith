@@ -1,7 +1,17 @@
 <!-- Hero Image  -->
 <div class=" row text-center" id="header">
   <div id="headerImage">
-    <img src="/images/coding-on-laptop_4460x4460.jpg" id="hero">
+    <div class="video-container" id="hero">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="images/Aloha-Mundo/MP4/Aloha-Mundo.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="images/Aloha-Mundo/WEBM/Aloha-Mundo.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="images/Aloha-Mundo/Snapshots/Aloha-Mundo.jpg" alt="">
+        </div>
+    </div>
+    <!-- <img src="/images/coding-on-laptop_4460x4460.jpg" id="hero"> -->
   </div>
 </div>
 <nav class="nav navbar-fixed-top" ng-controller="NavCtrl">
