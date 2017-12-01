@@ -1,50 +1,27 @@
 @import "variables";
 @import "projects";
 @import "blog";
+@import "home";
+@import "navigation";
+@import "about";
 
 body {
   background-color: $light-color;
-}
-
-.jumbo {
-  background-color: black;
-  border-bottom: 1px solid $light-color;
-  img {
-    width: 25%;
-  }
-}
-
-#header {
-  #headerImage {
-    position: relative;
-    height: 350px;
-    overflow: hidden;
-  }
-  #hero {
-      position: absolute;
-      width: 100%;
-      opacity: .5;
-      top: -200px;
-      left: 0;
-      z-index: -1;
-  }
-}
-.navigation {
-  font-size: 1.25em;
-  color: $light-color;
-  background-color: black;
-  a {
-    color: $light-color;
-  }
+  padding-bottom: 150px;
 }
 
 .pageName {
   position: absolute;
-  top: 25%;
+  top: 35%;
   font-family: $font;
-  font-size: 60px;
+  font-size: 72px;
+  color: $light-color;
 }
 
 .social {
   height: 25px;
+}
+
+#copy {
+  color: $light-color;
 }

@@ -1,0 +1,16 @@
+#home {
+  position: relative;
+  #adam {
+    position: absolute;
+    top: -275px;
+    img {
+      width: 175px;
+      border-radius: 100%;
+    }
+  }
+  #about-blurb {
+    position: absolute;
+    top: 25px;
+    padding-bottom: 100px;
+  }
+}
