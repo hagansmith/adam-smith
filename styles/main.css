@@ -10,14 +10,18 @@
 .jumbotron {
   padding-top: 10px; }
 
-body {
-  background-color: #fffff4; }
-
-.jumbo {
-  background-color: black;
-  border-bottom: 1px solid #fffff4; }
-  .jumbo img {
-    width: 25%; }
+#home {
+  position: relative; }
+  #home #adam {
+    position: absolute;
+    top: -275px; }
+    #home #adam img {
+      width: 175px;
+      border-radius: 100%; }
+  #home #about-blurb {
+    position: absolute;
+    top: 25px;
+    padding-bottom: 100px; }
 
 #header #headerImage {
   position: relative;
@@ -39,11 +43,28 @@ body {
   .navigation a {
     color: #fffff4; }
 
+.jumbo {
+  background-color: black;
+  border-bottom: 1px solid #fffff4; }
+  .jumbo img {
+    width: 25%; }
+
+#about ul li {
+  list-style: none; }
+
+body {
+  background-color: #fffff4;
+  padding-bottom: 150px; }
+
 .pageName {
   position: absolute;
-  top: 25%;
+  top: 35%;
   font-family: "Yeseva One", cursive;
-  font-size: 60px; }
+  font-size: 72px;
+  color: #fffff4; }
 
 .social {
   height: 25px; }
+
+#copy {
+  color: #fffff4; }
