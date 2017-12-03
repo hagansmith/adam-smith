@@ -1,11 +1,15 @@
-<container id="projects" class="row">
-   <h1 class="col-sm-4 col-sm-offset-4 text-center pageName">Projects</h1>
-   <div id="projectInfo" class="col-sm-11 col-sm-offset-1">
-     <div ng-repeat="project in projects">
-      <!-- <div class="collapse col-sm-12" id="{{project.id}}"> -->
-        <h2>{{project.name}}</h2>
-        <div class="col-sm-4"> <img src="{{project.preview}}"></div>
-        <h2> {{project.description}}</h2>
+<h1 class="col-sm-4 col-sm-offset-4 text-center pageName">Projects</h1>
+
+<container id="projects" class="row container">
+  <div class="col-sm-12 projectInfo" ng-repeat="project in projects" id="{{project.id}}" ng-show="project.id">
+    <h2 class="text-center">{{project.name}}</h2>
+    <div class="col-sm-10">
+      <img class="preview col-sm-4 col-sm-offset-2" src="{{project.preview}}">
+      <div class="col-sm-4">
+        <h3 class="col-sm-6"><a href="{{project.gitub_link}}">Project GitHub</a></h3>
+        <h3 class="col-sm-6" ng-hide="!project.site_link"><a href="{{project.site_link}}">Project Website</a></h3>
       </div>
+      <h4 class="col-sm-5">{{project.description}}</h4>
     </div>
-</div>
+  </div>
+</container>

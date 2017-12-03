@@ -14,13 +14,14 @@
       <li><a ng-href="#!/about">About</a></li>
       <li><a ng-href="#!/contact">Contact</a></li>
       <li><a ng-href="#!/blog">Blog</a></li>
+      <li><a ng-href="#!/projects">Projects</a></li>
 <!-- Projects dropdown  -->
-      <li class="dropdown" id="projects-nav">
+      <!-- <li class="dropdown" id="projects-nav">
         <a href="#!/projects" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="glyphicon glyphicon-chevron-down"></span></a>
         <ul class="dropdown-menu">
-          <li><a ng-repeat="project in projects" id="{{project.id}}" ng-click="showProject(project.id)">{{project.name}}</a></li>
+          <li><a ng-repeat="project in projects" id="{{project.id}}" ng-click="project.id = !project.id">{{project.name}}</a></li>
         </ul>
-      </li>
+      </li> -->
     </ul>
   </div>
 
