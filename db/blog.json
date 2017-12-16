@@ -79,30 +79,34 @@
 			"date": "November 11, 2017"
 		}
 	],
-	"projects": [{
-			"name": "Browserify Sandwich",
-			"description": "The browserify sandwich project is an individual project working with Browserify, Grunt, JSON, and XHR",
-			"preview": "https://github.com/hagansmith/browserfy_sandwich/blob/master/browserSandwich.gif",
-			"gitub_link": "https://github.com/hagansmith/browserfy_sandwich"
-		},
+	"projects" : [ {
+    "description" : "The browserify sandwich project is an individual project working with Browserify, Grunt, JSON, and XHR",
+    "gitub_link" : "https://github.com/hagansmith/browserfy_sandwich",
+    "name" : "Browserify Sandwich",
+    "preview" : "./images/browserSandwich.gif"
+  }, {
+    "description" : "User selects a scale to convert to and the temperature and the converted temperature is displayed. Temperature converter is a introductory javascript, HTML, and CSS exercise. JS is used to write information to the DOM.",
+    "gitub_link" : "https://github.com/hagansmith/temperatureConverter",
+    "name" : "Temperature Converter",
+    "preview" : "https://raw.githubusercontent.com/hagansmith/temperatureConverter/master/TempConverter.gif"
+  }, {
+    "description" : "Upon page load the user is presented with a selector to display products by category. When a category is selected only the items in that category are displayed. Acme explosives is an exercise in using javascript promises to asynchronously load data from json files.",
+    "gitub_link" : "https://github.com/hagansmith/Acme-Explosives",
+    "name" : "Acme Exlosives",
+    "preview" : "https://raw.githubusercontent.com/hagansmith/Acme-Explosives/master/Demo.gif"
+  }, {
+    "description" : "For this project groups were assigned by Myers Briggs personality types. As a team, create a interactive map of a theme park to include different areas with attractions and events. Leaning objectives include: becoming more proficient in working with Firebase, promises, remote deployment, github, and working on a development team",
+    "gitub_link" : "https://github.com/nss-evening-cohort-06/theme-park-advocates",
+    "name" : "Advocate Theme Park",
+    "preview" : "./images/themepark.gif",
+    "site_link" : "https://theme-park-advocates.firebaseapp.com/"
+  } ,
 		{
-			"name": "Temperature Converter",
-			"description": "User selects a scale to convert to and the temperature and the converted temperature is displayed. Temperature converter is a introductory javascript, HTML, and CSS exercise. JS is used to write information to the DOM.",
-			"preview": "https://github.com/hagansmith/temperatureConverter/blob/master/TempConverter.gif",
-			"gitub_link": "https://github.com/hagansmith/temperatureConverter"
-		},
-		{
-			"name": "Acme Exlosives",
-			"description": "Upon page load the user is presented with a selector to display products by category. When a category is selected only the items in that category are displayed. Acme explosives is an exercise in using javascript promises to asynchronously load data from json files.",
-			"preview": "https://github.com/hagansmith/Acme-Explosives/blob/master/Demo.gif",
-			"gitub_link": "https://github.com/hagansmith/Acme-Explosives"
-		},
-		{
-			"name": "Advocate Theme Park",
-			"description": "For this project groups were assigned by Myers Briggs personality types. As a team, create a interactive map of a theme park to include different areas with attractions and events. Leaning objectives include: becoming more proficient in working with Firebase, promises, remote deployment, github, and working on a development team",
-			"preview": "https://github.com/hagansmith/browserfy_sandwich/blob/master/browserSandwich.gif",
-			"gitub_link": "https://github.com/nss-evening-cohort-06/theme-park-advocates",
-			"site_link": "https://theme-park-advocates.firebaseapp.com/"
+			"name": "Meet Here (Front End Capstone)",
+			"description": "This individual capstone is the culmination of 6 months of front end developer bootcamp study. Initial development time was 2 weeks. The Meet Here app allows a user to put in 2 locations and  and have returned a central meet point with makers based on the type of place they would like to meet",
+			"preview": "./images/meethere.gif",
+			"gitub_link": "https://github.com/hagansmith/meet-here",
+			"site_link": "https://meet-here-1512138438348.firebaseapp.com"
 		}
 	]
 }
