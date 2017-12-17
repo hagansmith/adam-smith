@@ -83,28 +83,45 @@
     "description" : "The browserify sandwich project is an individual project working with Browserify, Grunt, JSON, and XHR",
     "gitub_link" : "https://github.com/hagansmith/browserfy_sandwich",
     "name" : "Browserify Sandwich",
-    "preview" : "./images/browserSandwich.gif"
-  }, {
+    "preview" : "./images/browserifySandwich.png"
+  },
+	{
     "description" : "User selects a scale to convert to and the temperature and the converted temperature is displayed. Temperature converter is a introductory javascript, HTML, and CSS exercise. JS is used to write information to the DOM.",
     "gitub_link" : "https://github.com/hagansmith/temperatureConverter",
     "name" : "Temperature Converter",
-    "preview" : "https://raw.githubusercontent.com/hagansmith/temperatureConverter/master/TempConverter.gif"
-  }, {
+    "preview" : "./images/tempConverter.png"
+  },
+	{
     "description" : "Upon page load the user is presented with a selector to display products by category. When a category is selected only the items in that category are displayed. Acme explosives is an exercise in using javascript promises to asynchronously load data from json files.",
     "gitub_link" : "https://github.com/hagansmith/Acme-Explosives",
     "name" : "Acme Exlosives",
-    "preview" : "https://raw.githubusercontent.com/hagansmith/Acme-Explosives/master/Demo.gif"
-  }, {
-    "description" : "For this project groups were assigned by Myers Briggs personality types. As a team, create a interactive map of a theme park to include different areas with attractions and events. Leaning objectives include: becoming more proficient in working with Firebase, promises, remote deployment, github, and working on a development team",
-    "gitub_link" : "https://github.com/nss-evening-cohort-06/theme-park-advocates",
-    "name" : "Advocate Theme Park",
-    "preview" : "./images/themepark.gif",
-    "site_link" : "https://theme-park-advocates.firebaseapp.com/"
-  } ,
-		{
+    "preview" : "./images/acmeExplosives.png"
+  },
+	{
+		"description" : "For this project groups were assigned by Myers Briggs personality types. As a team, create a interactive map of a theme park to include different areas with attractions and events. Leaning objectives include: becoming more proficient in working with Firebase, promises, remote deployment, github, and working on a development team",
+		"gitub_link" : "https://github.com/nss-evening-cohort-06/theme-park-advocates",
+		"name" : "Advocate Theme Park",
+		"preview" : "./images/themePark.png",
+		"site_link" : "https://theme-park-advocates.firebaseapp.com/"
+	},
+	{
+		"description" : "Angular Movie History builds on a previous project using asynchronous calls to an API (the movie database) to build a collection of a users favorite movies and movies they want to watch along with ratings. The primary purpose of this project is to gain our first experince with Angular",
+		"gitub_link" : "https://github.com/hagansmith/angular-movie-history",
+		"name" : "Angular Movie History",
+		"preview" : "./images/moviehistory.png",
+		"site_link" : "https://angular-movie-history-4bf6c.firebaseapp.com/"
+	},
+	{
+		"description" : "Building on the framework used in the angular movie history exercise, angular contacts utilizes AngularJS and Firebase to allow a user to create a contacts repository",
+		"gitub_link" : "https://github.com/hagansmith/angular-contacts",
+		"name" : "Angular Contacts",
+		"preview" : "./images/angularContacts.png",
+		"site_link" : "https://angular-contacts-ahs.firebaseapp.com/"
+	},
+	{
 			"name": "Meet Here (Front End Capstone)",
 			"description": "This individual capstone is the culmination of 6 months of front end developer bootcamp study. Initial development time was 2 weeks. The Meet Here app allows a user to put in 2 locations and  and have returned a central meet point with makers based on the type of place they would like to meet",
-			"preview": "./images/meethere.gif",
+			"preview": "./images/meetHere.png",
 			"gitub_link": "https://github.com/hagansmith/meet-here",
 			"site_link": "https://meet-here-1512138438348.firebaseapp.com"
 		}
