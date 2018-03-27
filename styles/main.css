@@ -1,7 +1,7 @@
 .blog {
   height: 110px;
   overflow: hidden;
-  font-family: "Yeseva One", cursive; }
+  font-family: "Ubuntu", sans-serif; }
 
 #focusBlog {
   min-height: 110px;
@@ -10,22 +10,27 @@
 .jumbotron {
   padding-top: 10px; }
 
-#home {
-  position: relative; }
-  #home #adam {
-    position: absolute;
-    top: -275px; }
-    #home #adam img {
-      width: 175px;
-      border-radius: 100%; }
-  #home #about-blurb {
-    position: absolute;
-    top: 25px;
-    padding-bottom: 100px; }
+#homePageHeader {
+  position: absolute; }
+  #homePageHeader h1 span {
+    content: url("../images/plus-square.svg");
+    height: 40px; }
+  #homePageHeader #projects {
+    color: #ffffff;
+    font-size: 35px;
+    background: #4A4A4A;
+    border: 0;
+    border-bottom: 10px, black;
+    padding: 15px 20px 15px 20px; }
+  #homePageHeader #projects:hover {
+    background: #252525; }
+  #homePageHeader #projects:active {
+    border-bottom: 5px green; }
 
 #header #headerImage {
-  position: relative;
   height: 350px;
+  justify-content: center;
+  padding: 0;
   overflow: hidden; }
 
 #header #hero {
@@ -38,16 +43,33 @@
 
 .navigation {
   font-size: 1.25em;
+  display: flex;
+  justify-content: center;
   color: #fffff4;
-  background-color: black; }
+  background-color: #252525;
+  border-bottom: 3px solid #4A4A4A; }
   .navigation a {
-    color: #fffff4; }
+    color: white;
+    font-family: "Ubuntu", sans-serif; }
+  .navigation li {
+    border-left: 1px solid #4A4A4A;
+    border-right: 1px solid #4A4A4A;
+    align-self: center; }
+
+.nav > li > a:hover {
+  background: #4A4A4A; }
+
+.nav > li > a:focus {
+  background: #4A4A4A;
+  border-bottom: 3px green; }
 
 .jumbo {
-  background-color: black;
-  border-bottom: 1px solid #fffff4; }
+  background-color: #252525;
+  border-bottom: 1px solid #4A4A4A;
+  height: 177px; }
   .jumbo img {
-    width: 25%; }
+    padding-top: 35px;
+    width: 45%; }
 
 #about ul li {
   list-style: none; }
@@ -57,11 +79,9 @@ body {
   padding-bottom: 150px; }
 
 .pageName {
-  position: absolute;
-  top: 160px;
-  font-family: "Yeseva One", cursive;
+  font-family: "Ubuntu", sans-serif;
   font-size: 72px;
-  color: #fffff4; }
+  color: black; }
 
 .social {
   height: 25px; }

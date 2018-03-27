@@ -1,7 +1,8 @@
 #header {
   #headerImage {
-    position: relative;
     height: 350px;
+    justify-content: center;
+    padding: 0;
     overflow: hidden;
   }
   #hero {
@@ -16,17 +17,37 @@
 
 .navigation {
   font-size: 1.25em;
+  display: flex;
+  justify-content: center;
   color: $light-color;
-  background-color: black;
+  background-color: $dark-grey;
+  border-bottom: 3px solid $light-grey;
   a {
-    color: $light-color;
+    color: white;
+    font-family: $font;
+  }
+  li {
+    border-left: 1px solid $light-grey;
+    border-right: 1px solid $light-grey;
+    align-self: center;
   }
 }
 
+.nav>li>a:hover{
+  background: $light-grey;
+}
+
+.nav>li>a:focus{
+  background: $light-grey;
+  border-bottom: 3px green;
+}
+
 .jumbo {
-  background-color: black;
-  border-bottom: 1px solid $light-color;
+  background-color: $dark-grey;
+  border-bottom: 1px solid $light-grey;
   img {
-    width: 25%;
+    padding-top: 35px;
+    width: 45%;
   }
+  height: 177px;
 }
