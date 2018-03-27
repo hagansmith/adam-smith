@@ -1,5 +1,6 @@
 #homePageHeader {
   position: absolute;
+  padding-top: 75px;
 
   h1 {
     span{
@@ -7,18 +8,59 @@
       height: 40px;
     }
   }
-  #projects {
+}
+.btn-big {
     color: #ffffff;
-    font-size: 35px;
-    background: $light-grey;
-    border: 0;
-    border-bottom: 10px, black;
-    padding: 15px 20px 15px 20px;
+    font-size: 25px;
+    background-color: $light-grey;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid $dark-grey 4px;
+    padding: 12px 20px 12px 20px;
   }
-  #projects:hover {
+.btn-big:hover {
     background: $dark-grey;
   }
-  #projects:active{
-    border-bottom: 5px green;
+.btn-big:active{
+    border-bottom: 5px $dark-grey;
+}
+
+#about-blurb {
+  padding-top: 75px;
+  padding-bottom: 110px;
+}
+
+#experience {
+  h1 {
+    color: white;
+    padding-bottom: 50px;
   }
+  padding: 75px;
+  color: white;
+  height: 700px;
+  background-image: url("http://adamhsmith.com/wp-content/uploads/2017/04/bg-services-01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skill {
+  color: $green;
+}
+
+#more {
+  color: #ffffff;
+  font-size: 25px;
+  background-color: $green;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid $dark-green 4px;
+  padding: 12px 20px 12px 20px;
+  margin-top: 50px;
+}
+#more:hover {
+  background: $dark-green;
 }

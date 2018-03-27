@@ -11,24 +11,64 @@
   padding-top: 10px; }
 
 #homePageHeader {
-  position: absolute; }
+  position: absolute;
+  padding-top: 75px; }
   #homePageHeader h1 span {
     content: url("../images/plus-square.svg");
     height: 40px; }
-  #homePageHeader #projects {
-    color: #ffffff;
-    font-size: 35px;
-    background: #4A4A4A;
-    border: 0;
-    border-bottom: 10px, black;
-    padding: 15px 20px 15px 20px; }
-  #homePageHeader #projects:hover {
-    background: #252525; }
-  #homePageHeader #projects:active {
-    border-bottom: 5px green; }
+
+.btn-big {
+  color: #ffffff;
+  font-size: 25px;
+  background-color: #4A4A4A;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid #252525 4px;
+  padding: 12px 20px 12px 20px; }
+
+.btn-big:hover {
+  background: #252525; }
+
+.btn-big:active {
+  border-bottom: 5px #252525; }
+
+#about-blurb {
+  padding-top: 75px;
+  padding-bottom: 110px; }
+
+#experience {
+  padding: 75px;
+  color: white;
+  height: 700px;
+  background-image: url("http://adamhsmith.com/wp-content/uploads/2017/04/bg-services-01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #experience h1 {
+    color: white;
+    padding-bottom: 50px; }
+
+.skill {
+  color: #2BB673; }
+
+#more {
+  color: #ffffff;
+  font-size: 25px;
+  background-color: #2BB673;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid #339966 4px;
+  padding: 12px 20px 12px 20px;
+  margin-top: 50px; }
+
+#more:hover {
+  background: #339966; }
 
 #header #headerImage {
-  height: 350px;
+  height: 500px;
   justify-content: center;
   padding: 0;
   overflow: hidden; }
@@ -42,7 +82,7 @@
   z-index: -1; }
 
 .navigation {
-  font-size: 1.25em;
+  font-size: 1.5em;
   display: flex;
   justify-content: center;
   color: #fffff4;
@@ -54,14 +94,19 @@
   .navigation li {
     border-left: 1px solid #4A4A4A;
     border-right: 1px solid #4A4A4A;
+    padding: 10px;
     align-self: center; }
 
 .nav > li > a:hover {
-  background: #4A4A4A; }
+  background-color: #4A4A4A; }
+
+.nav > li:hover {
+  background-color: #4A4A4A;
+  border-bottom: solid 3px #2BB673; }
 
 .nav > li > a:focus {
-  background: #4A4A4A;
-  border-bottom: 3px green; }
+  background-color: #4A4A4A;
+  border-bottom: solid 3px green; }
 
 .jumbo {
   background-color: #252525;
@@ -75,13 +120,17 @@
   list-style: none; }
 
 body {
-  background-color: #fffff4;
   padding-bottom: 150px; }
 
-.pageName {
+.title {
   font-family: "Ubuntu", sans-serif;
   font-size: 72px;
-  color: black; }
+  color: black;
+  padding-bottom: 15px; }
+
+.subTitle {
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 15px; }
 
 .social {
   height: 25px; }

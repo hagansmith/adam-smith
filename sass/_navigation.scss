@@ -1,6 +1,6 @@
 #header {
   #headerImage {
-    height: 350px;
+    height: 500px;
     justify-content: center;
     padding: 0;
     overflow: hidden;
@@ -16,7 +16,8 @@
 }
 
 .navigation {
-  font-size: 1.25em;
+  font-size: 1.5em;
+
   display: flex;
   justify-content: center;
   color: $light-color;
@@ -29,17 +30,21 @@
   li {
     border-left: 1px solid $light-grey;
     border-right: 1px solid $light-grey;
+    padding: 10px;
     align-self: center;
   }
 }
-
 .nav>li>a:hover{
-  background: $light-grey;
+  background-color: $light-grey;
+}
+.nav>li:hover{
+  background-color: $light-grey;
+  border-bottom: solid 3px $green;
 }
 
 .nav>li>a:focus{
-  background: $light-grey;
-  border-bottom: 3px green;
+  background-color: $light-grey;
+  border-bottom: solid 3px green;
 }
 
 .jumbo {

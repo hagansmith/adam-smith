@@ -6,14 +6,19 @@
 @import "about";
 
 body {
-  background-color: $light-color;
   padding-bottom: 150px;
 }
 
-.pageName {
+.title {
   font-family: $font;
   font-size: 72px;
   color: black;
+  padding-bottom: 15px;
+}
+
+.subTitle {
+  font-family: $font;
+  padding-bottom: 15px;
 }
 
 .social {

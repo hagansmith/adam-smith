@@ -13,16 +13,14 @@ app.controller("NavCtrl", function($scope, $window, DataService){
 
   getProjects();
 
-  //let topOfDiv = $('.navigation').offset().top(); //gets offset of header
-  //let height = $('.navigation').outerHeight; //gets height of header
-  $window.scroll(function() {
-    if($window.scrollTop() > (12)){
-       //$(".jumbotron").slideUp();
-       $('.navigation').addClass('navbar-fixed-top');
+  let topOfDiv = $(".jumbo").offset().top; //gets offset of header
+  $window.scroll(function(){
+    if($window.scrollTop() > topOfDiv){
+      $window.alert("Im here");
+       $('.navigation').addClassList('navbar-fixed-top');
     }
     else{
-       //$(".jumbotron").slideDown();
-       $('.navigation').removeClass('navbar-fixed-top');
+       $('.navigation').removeClassList('navbar-fixed-top');
     }
   });
 });
