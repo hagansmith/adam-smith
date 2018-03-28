@@ -1,7 +1,7 @@
 .blog {
   height: 110px;
   overflow: hidden;
-  font-family: "Yeseva One", cursive; }
+  font-family: "Ubuntu", sans-serif; }
 
 #focusBlog {
   min-height: 110px;
@@ -10,22 +10,60 @@
 .jumbotron {
   padding-top: 10px; }
 
-#home {
-  position: relative; }
-  #home #adam {
-    position: absolute;
-    top: -275px; }
-    #home #adam img {
-      width: 175px;
-      border-radius: 100%; }
-  #home #about-blurb {
-    position: absolute;
-    top: 25px;
-    padding-bottom: 100px; }
+.pageHeader h1 span {
+  content: url("../images/plus-square.svg");
+  height: 40px; }
+
+.btn-big {
+  color: #ffffff;
+  font-size: 25px;
+  background-color: #4A4A4A;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid #252525 4px;
+  padding: 12px 20px 12px 20px; }
+
+.btn-big:hover {
+  background: #252525; }
+
+.btn-big:active {
+  border-bottom: 5px #252525; }
+
+#experience {
+  padding: 75px;
+  color: white;
+  height: 700px;
+  background-image: url("http://adamhsmith.com/wp-content/uploads/2017/04/bg-services-01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #experience h1 {
+    color: white;
+    padding-bottom: 50px; }
+
+.skill {
+  color: #2BB673; }
+
+#more {
+  color: #ffffff;
+  font-size: 25px;
+  background-color: #2BB673;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid #339966 4px;
+  padding: 12px 20px 12px 20px;
+  margin-top: 50px; }
+
+#more:hover {
+  background: #339966; }
 
 #header #headerImage {
-  position: relative;
-  height: 350px;
+  height: 500px;
+  justify-content: center;
+  padding: 0;
   overflow: hidden; }
 
 #header #hero {
@@ -37,34 +75,94 @@
   z-index: -1; }
 
 .navigation {
-  font-size: 1.25em;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
   color: #fffff4;
-  background-color: black; }
+  background-color: #252525;
+  border-bottom: 3px solid #4A4A4A; }
   .navigation a {
-    color: #fffff4; }
+    color: white;
+    font-family: "Ubuntu", sans-serif; }
+  .navigation li {
+    border-left: 1px solid #4A4A4A;
+    border-right: 1px solid #4A4A4A;
+    padding: 10px;
+    align-self: center; }
+
+.nav > li > a:hover {
+  background-color: #4A4A4A; }
+
+.nav > li:hover {
+  background-color: #4A4A4A;
+  border-bottom: solid 3px #2BB673; }
+
+.nav > li > a:focus {
+  background-color: #4A4A4A;
+  border-bottom: solid 3px green; }
 
 .jumbo {
-  background-color: black;
-  border-bottom: 1px solid #fffff4; }
+  background-color: #252525;
+  border-bottom: 1px solid #4A4A4A;
+  height: 177px; }
   .jumbo img {
-    width: 25%; }
+    padding-top: 35px;
+    width: 45%; }
 
-#about ul li {
-  list-style: none; }
+#about {
+  font-family: "Ubuntu", sans-serif; }
+  #about ul li {
+    list-style: none; }
+
+#adam-smith {
+  max-width: 250px;
+  border-radius: 50%; }
+
+#name {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 25px; }
+
+#rolesList > li > span {
+  color: #2BB673; }
+
+.contact {
+  font-family: "Ubuntu", sans-serif;
+  /* visited link */
+  /* mouse over link */ }
+  .contact a:link {
+    color: #2BB673; }
+  .contact a:visited {
+    color: #2BB673; }
+  .contact a:hover {
+    color: #252525; }
+  .contact .fa-5x {
+    padding-right: 7px; }
 
 body {
-  background-color: #fffff4;
   padding-bottom: 150px; }
 
-.pageName {
-  position: absolute;
-  top: 160px;
-  font-family: "Yeseva One", cursive;
+.title {
+  font-family: "Ubuntu", sans-serif;
   font-size: 72px;
-  color: #fffff4; }
+  color: black;
+  padding-bottom: 15px; }
+
+.subTitle {
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 15px; }
 
 .social {
   height: 25px; }
 
 #copy {
   color: #fffff4; }
+
+.post-hero {
+  padding-top: 75px;
+  padding-bottom: 110px; }
+
+.pageHeader {
+  position: absolute;
+  padding-top: 75px; }

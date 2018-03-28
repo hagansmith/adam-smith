@@ -1,0 +1,19 @@
+.contact {
+  font-family: $font;
+  a:link {
+    color: $green;
+  }
+  /* visited link */
+  a:visited {
+      color: $green;
+  }
+
+  /* mouse over link */
+  a:hover {
+      color: $dark-grey;
+  }
+
+  .fa-5x {
+      padding-right: 7px;
+  }
+}

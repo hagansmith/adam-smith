@@ -4,18 +4,22 @@
 @import "home";
 @import "navigation";
 @import "about";
+@import "contact";
 
 body {
-  background-color: $light-color;
   padding-bottom: 150px;
 }
 
-.pageName {
-  position: absolute;
-  top: 160px;
+.title {
   font-family: $font;
   font-size: 72px;
-  color: $light-color;
+  color: black;
+  padding-bottom: 15px;
+}
+
+.subTitle {
+  font-family: $font;
+  padding-bottom: 15px;
 }
 
 .social {
@@ -24,4 +28,14 @@ body {
 
 #copy {
   color: $light-color;
+}
+
+.post-hero {
+  padding-top: 75px;
+  padding-bottom: 110px;
+}
+
+.pageHeader {
+  position: absolute;
+  padding-top: 75px;
 }

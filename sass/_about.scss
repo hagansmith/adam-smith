@@ -1,5 +1,22 @@
 #about {
+  font-family: $font;
     ul li {
       list-style: none;
     }
+}
+
+#adam-smith {
+  max-width: 250px;
+  border-radius: 50%;
+}
+
+#name {
+  font-family: $font;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+#rolesList>li>span {
+  color: $green;
 }

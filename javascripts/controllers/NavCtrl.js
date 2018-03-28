@@ -13,4 +13,14 @@ app.controller("NavCtrl", function($scope, $window, DataService){
 
   getProjects();
 
+  let topOfDiv = $(".jumbo").offset().top; //gets offset of header
+  $window.scroll(function(){
+    if($window.scrollTop() > topOfDiv){
+      $window.alert("Im here");
+       $('.navigation').addClassList('navbar-fixed-top');
+    }
+    else{
+       $('.navigation').removeClassList('navbar-fixed-top');
+    }
+  });
 });
