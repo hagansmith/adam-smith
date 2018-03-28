@@ -10,12 +10,9 @@
 .jumbotron {
   padding-top: 10px; }
 
-#homePageHeader {
-  position: absolute;
-  padding-top: 75px; }
-  #homePageHeader h1 span {
-    content: url("../images/plus-square.svg");
-    height: 40px; }
+.pageHeader h1 span {
+  content: url("../images/plus-square.svg");
+  height: 40px; }
 
 .btn-big {
   color: #ffffff;
@@ -32,10 +29,6 @@
 
 .btn-big:active {
   border-bottom: 5px #252525; }
-
-#about-blurb {
-  padding-top: 75px;
-  padding-bottom: 110px; }
 
 #experience {
   padding: 75px;
@@ -116,8 +109,36 @@
     padding-top: 35px;
     width: 45%; }
 
-#about ul li {
-  list-style: none; }
+#about {
+  font-family: "Ubuntu", sans-serif; }
+  #about ul li {
+    list-style: none; }
+
+#adam-smith {
+  max-width: 250px;
+  border-radius: 50%; }
+
+#name {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 25px; }
+
+#rolesList > li > span {
+  color: #2BB673; }
+
+.contact {
+  font-family: "Ubuntu", sans-serif;
+  /* visited link */
+  /* mouse over link */ }
+  .contact a:link {
+    color: #2BB673; }
+  .contact a:visited {
+    color: #2BB673; }
+  .contact a:hover {
+    color: #252525; }
+  .contact .fa-5x {
+    padding-right: 7px; }
 
 body {
   padding-bottom: 150px; }
@@ -137,3 +158,11 @@ body {
 
 #copy {
   color: #fffff4; }
+
+.post-hero {
+  padding-top: 75px;
+  padding-bottom: 110px; }
+
+.pageHeader {
+  position: absolute;
+  padding-top: 75px; }

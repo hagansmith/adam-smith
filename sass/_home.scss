@@ -1,7 +1,4 @@
-#homePageHeader {
-  position: absolute;
-  padding-top: 75px;
-
+.pageHeader {
   h1 {
     span{
       content: url("../images/plus-square.svg");
@@ -24,11 +21,6 @@
   }
 .btn-big:active{
     border-bottom: 5px $dark-grey;
-}
-
-#about-blurb {
-  padding-top: 75px;
-  padding-bottom: 110px;
 }
 
 #experience {

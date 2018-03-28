@@ -4,6 +4,7 @@
 @import "home";
 @import "navigation";
 @import "about";
+@import "contact";
 
 body {
   padding-bottom: 150px;
@@ -27,4 +28,14 @@ body {
 
 #copy {
   color: $light-color;
+}
+
+.post-hero {
+  padding-top: 75px;
+  padding-bottom: 110px;
+}
+
+.pageHeader {
+  position: absolute;
+  padding-top: 75px;
 }
