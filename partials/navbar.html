@@ -1,27 +1,19 @@
 <container id="header" ng-controller="NavCtrl">
 
 <!-- Logo -->
-  <div class="text-center jumbo">
+  <div class="text-center jumbo" id="header">
     <div>
       <img src="/images/AHS-Big.png">
     </div>
   </div>
-
 <!-- Nav -->
   <div class="navigation container-fluid">
     <ul class="nav navbar-nav">
-      <li><a ng-href="#!/home">HOME</a></li>
+      <li class="active"><a ng-href="#!/home">HOME</a></li>
       <li><a ng-href="#!/about">ABOUT</a></li>
       <li><a ng-href="#!/contact">GET IN TOUCH</a></li>
       <!-- <li><a ng-href="#!/blog">Blog</a></li> -->
       <li><a ng-href="#!/projects">PROJECTS</a></li>
-<!-- Projects dropdown  -->
-      <!-- <li class="dropdown" id="projects-nav">
-        <a href="#!/projects" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="glyphicon glyphicon-chevron-down"></span></a>
-        <ul class="dropdown-menu">
-          <li><a ng-repeat="project in projects" id="{{project.id}}" ng-click="project.id = !project.id">{{project.name}}</a></li>
-        </ul>
-      </li> -->
     </ul>
   </div>
 

@@ -1,3 +1,35 @@
+.project {
+  position: relative;
+  height: width;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+// Wrap fix for irregular sized containers
+.project.col-md-4:nth-child(3n+1) {
+  clear: both;
+}
+
 .preview {
-  
+  width: 125%;
+}
+
+.name {
+  position: absolute;
+  font-size: 1.5em;
+  bottom: 20px;
+  height: 55px;
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-family: $font;
+
+  p {
+    margin-top: 12px;
+  }
+}
+
+.name:hover{
+  background-color: rgba(37, 37, 37, 0.75);
 }

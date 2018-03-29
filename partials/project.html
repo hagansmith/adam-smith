@@ -1,15 +1,16 @@
-<h1 class="col-md-4 col-md-offset-4 text-center pageName">Projects</h1>
-
-<container id="projects" class="row container">
-  <div class="col-md-12 projectInfo" ng-repeat="project in projects" id="{{project.id}}" ng-show="project.id">
-    <h2 class="text-center">{{project.name}}</h2>
-    <div class="col-md-10">
-      <img class="preview col-md-4 col-md-offset-2" src="{{project.preview}}">
-      <div class="col-md-4">
-        <h3 class="col-md-6"><a href="{{project.gitub_link}}">Project GitHub</a></h3>
-        <h3 class="col-md-6" ng-hide="!project.site_link"><a href="{{project.site_link}}">Project Website</a></h3>
+<div class="row container pageHeader">
+  <div class="col-md-8 col-md-offset-3">
+    <h1 class="title">
+      NSS Projects
+    </h1>
+  </div>
+</div>
+<div class="projectsContainer container">
+  <div class="text-center row" id="projects">
+    <div class="project col-sm-6 col-md-4" ng-repeat="project in projects" id="{{project.id}}" ng-show="project.id">
+      <img class="preview" src="{{project.preview}}"/>
+      <div class="name col-md-12" ng-click="launchModal('partials/projectDetail.html','ProjectDetailCtrl')" ng-controller="ModalCtrl"><p ng-controller="ProjectCtrl">{{project.name}}</p>
       </div>
-      <h4 class="col-md-5">{{project.description}}</h4>
     </div>
   </div>
-</container>
+</div>

@@ -1,14 +1,13 @@
 "use strict";
 
-app.controller("ProjectCtrl", function($scope, DataService){
+app.controller("ProjectDetailCtrl", function($scope, $window, DataService){
   $scope.projects = [];
 
-  const getProjects = () => {
+  $scope.getProjectsById = () => {
     DataService.getProjects().then((results)=>{
       $scope.projects = results;
     }).catch((error)=>{
       console.log("error in getProjects", error);
     });
   };
-  getProjects();
 });

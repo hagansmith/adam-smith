@@ -1,7 +1,8 @@
 .pageHeader {
   h1 {
     span{
-      content: url("../images/plus-square.svg");
+      color: $green;
+      //content: url("../images/plus-square.svg");
       height: 40px;
     }
   }

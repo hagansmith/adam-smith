@@ -1,3 +1,31 @@
+.project {
+  position: relative;
+  height: width;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0 auto;
+  white-space: nowrap; }
+
+.project.col-md-4:nth-child(3n+1) {
+  clear: both; }
+
+.preview {
+  width: 125%; }
+
+.name {
+  position: absolute;
+  font-size: 1.5em;
+  bottom: 20px;
+  height: 55px;
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-family: "Ubuntu", sans-serif; }
+  .name p {
+    margin-top: 12px; }
+
+.name:hover {
+  background-color: rgba(37, 37, 37, 0.75); }
+
 .blog {
   height: 110px;
   overflow: hidden;
@@ -11,7 +39,7 @@
   padding-top: 10px; }
 
 .pageHeader h1 span {
-  content: url("../images/plus-square.svg");
+  color: #2BB673;
   height: 40px; }
 
 .btn-big {
@@ -98,6 +126,9 @@
   border-bottom: solid 3px #2BB673; }
 
 .nav > li > a:focus {
+  background-color: #4A4A4A; }
+
+.active {
   background-color: #4A4A4A;
   border-bottom: solid 3px green; }
 
@@ -114,6 +145,9 @@
   #about ul li {
     list-style: none; }
 
+#me {
+  width: 100%; }
+
 #adam-smith {
   max-width: 250px;
   border-radius: 50%; }
@@ -126,6 +160,12 @@
 
 #rolesList > li > span {
   color: #2BB673; }
+
+.lead a {
+  color: #2BB673; }
+
+.lead a:hover {
+  color: #339966; }
 
 .contact {
   font-family: "Ubuntu", sans-serif;
@@ -165,4 +205,6 @@ body {
 
 .pageHeader {
   position: absolute;
-  padding-top: 75px; }
+  padding-top: 75px;
+  right: 0;
+  left: 0; }

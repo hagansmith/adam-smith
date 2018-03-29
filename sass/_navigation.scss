@@ -44,6 +44,10 @@
 
 .nav>li>a:focus{
   background-color: $light-grey;
+}
+
+.active {
+  background-color: $light-grey;
   border-bottom: solid 3px green;
 }
 
