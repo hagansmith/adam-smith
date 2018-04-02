@@ -5,6 +5,12 @@
         <h3 class="col-md-6"><a href="{{project.gitub_link}}" target="_blank">Project GitHub</a></h3>
         <h3 class="col-md-6" ng-hide="!project.site_link"><a href="{{project.site_link}}" target="_blank">Project Website</a></h3>
       <h4 class="col-md-12">{{project.description}}</h4>
+      <div id="tech" class="col-md-12">
+        <h3 class="text-center">Significant Technology</h3>
+        <ul>
+          <li ng-repeat='item in project.tech'>{{item}}</li>
+        </ul>
+      </div>
     </div>
   </div>
 </container>
